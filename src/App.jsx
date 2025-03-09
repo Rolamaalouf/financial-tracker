@@ -9,7 +9,7 @@ import { AuthProvider } from "./context/AuthContext";
 import Transactions from "./pages/Transactions";
 import Report from "./pages/Analytics";
 
-// AppLayout component with Sidebar
+// Layout component with Sidebar
 const AppLayout = ({ children }) => (
   <div style={{ display: "flex" }}>
     <Sidebar />  
@@ -19,13 +19,20 @@ const AppLayout = ({ children }) => (
   </div>
 );
 
+// Layout for Login page (without Sidebar but with marginLeft)
+const LoginLayout = ({ children }) => (
+  <div style={{ marginLeft: "500px" }}>
+    {children}
+  </div>
+);
+
 const App = () => {
   return (
     <AuthProvider>
       <Router>
         <Routes>
-          {/* Login page as the home page (no Sidebar) */}
-          <Route path="/" element={<Login />} />  
+          {/* Login page with marginLeft */}
+          <Route path="/" element={<LoginLayout><Login /></LoginLayout>} />  
 
           {/* All other pages wrapped with AppLayout (includes Sidebar) */}
           <Route path="/dashboard" element={<AppLayout><DashboardPage /></AppLayout>} />
