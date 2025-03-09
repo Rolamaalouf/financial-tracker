@@ -10,12 +10,14 @@
       }
     ],
     "rewrites": [
+
       {
         "source": "/api/:path*",
         "destination": "https://fin-sync-1.onrender.com/api/:path*"
       },
+      
       {
-        "source": "/(?!api/.*)",
+        "source": "/:path((?!api/).*)",
         "destination": "/index.html"
       }
     ]
