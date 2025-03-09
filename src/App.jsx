@@ -4,16 +4,16 @@ import Login from "./pages/LoginPage";
 import DashboardPage from "./pages/DashboardPage";  
 import AdminPanel from "./pages/AdminPanel";
 import ProfitGoal from "./pages/ProfitGoal";
-import Sidebar from "./components/Sidebar";  // Import Sidebar
+import Sidebar from "./components/Sidebar";  
 import { AuthProvider } from "./context/AuthContext";
 import Transactions from "./pages/Transactions";
-import Report from "./pages/Analytics"
+import Report from "./pages/Analytics";
 
 // AppLayout component with Sidebar
 const AppLayout = ({ children }) => (
   <div style={{ display: "flex" }}>
     <Sidebar />  
-    <div style={{ flex: 1, padding: "20px" }}>
+    <div style={{ flex: 1, padding: "20px", marginLeft: "500px" }}>  
       {children}
     </div>
   </div>
