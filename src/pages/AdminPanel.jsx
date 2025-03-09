@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
+import "../styles/admin.css"
 
 
 const API_URL = 'https://fin-sync-1.onrender.com/api/auth'; // Adjust based on your backend
