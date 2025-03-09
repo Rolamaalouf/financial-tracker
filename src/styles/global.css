@@ -1,0 +1,22 @@
+/* Example of some global styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: black;
+}

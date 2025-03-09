@@ -1,0 +1,85 @@
+/* styles/DashboardPage.css */
+
+
+
+/* Dashboard Container */
+.dashboard-container {
+  display: flex;  /* Flexbox for the layout */
+ 
+}
+
+/* Sidebar Styles */
+.sidebar {
+  position: fixed;  /* Fix the sidebar on the left */
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100%;
+  background-color: rgb(238, 182, 191);
+  padding-top: 20px;
+}
+
+.menu li {
+color: black !important; /* Force text color to black */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: white;
+}
+
+/* Main Dashboard Content */
+.dashboard-content {
+  margin-left: 320px;   /* Space for the sidebar */
+  padding: 20px;
+  /* background-color: #f4f4f4; */
+  flex-grow: 1;
+  height: 100vh;
+  /* overflow-y: auto; */
+  width:700px;
+}
+
+/* Widgets in the Dashboard (Vertical Stack) */
+.dashboard-widgets {
+  display: flex;         /* Use flexbox for vertical stacking */
+  flex-direction: column; /* Stack items vertically */
+  gap: 20px;             /* Space between the widgets */
+}
+
+/* Individual Widget Styles */
+.card, .analytics, .transactions {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.card h2, .analytics h2, .transactions h2 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p, .analytics p, .transactions p {
+  color: #555;
+  font-size: 16px;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+}
