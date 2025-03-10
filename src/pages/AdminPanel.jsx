@@ -114,7 +114,7 @@ const AdminPanel = () => {
   };
 
   const buttonStyle = {
-    backgroundColor: 'pink',
+    backgroundColor: '#f9b3f3',
     color: 'black',
     border: 'none',
     padding: '5px 10px',

@@ -83,7 +83,7 @@ const RecurringIncomeList = () => {
   };
 
   const buttonStyle = {
-    backgroundColor: "pink",
+    backgroundColor: "#f9b3f3",
     color: "black",
     padding: "5px 15px",
     margin: "5px",
@@ -96,7 +96,7 @@ const RecurringIncomeList = () => {
     <div>
       <h2>Recurring Income List</h2>
       <table border="1" cellPadding="8" cellSpacing="0">
-        <thead style={{ backgroundColor: "pink" }}>
+        <thead style={{ backgroundColor: "#f9b3f3" }}>
           <tr>
             <th>Title</th>
             <th>Description</th>

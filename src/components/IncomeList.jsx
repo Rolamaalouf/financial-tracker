@@ -71,7 +71,7 @@ const IncomeList = () => {
   };
 
   const buttonStyle = {
-    backgroundColor: 'pink',
+    backgroundColor: '#f9b3f3',
     color: 'black',
     border: 'none',
     padding: '5px 10px',
@@ -83,7 +83,7 @@ const IncomeList = () => {
     <div>
       <h2>Income List</h2>
       <table border="1" cellPadding="8" cellSpacing="0">
-        <thead style={{ backgroundColor: "pink" }}>
+        <thead style={{ backgroundColor: "#f9b3f3" }}>
           <tr>
             <th>Title</th>
             <th>Description</th>
@@ -157,7 +157,7 @@ const IncomeList = () => {
         <input type="date" name="date" value={formData.date} onChange={handleChange} required />
         <input type="text" name="category_id" value={formData.category_id} onChange={handleChange} placeholder="Category ID" required />
         <input type="text" name="user_id" value={formData.user_id} onChange={handleChange} placeholder="User ID" required />
-        <button style={{ ...buttonStyle, backgroundColor: "pink", color: "black" }} type="submit">
+        <button style={{ ...buttonStyle, backgroundColor: "#f9b3f3", color: "black" }} type="submit">
           {isEditing ? "Update Income" : "Add Income"}
         </button>
         {isEditing && <button type="button" onClick={resetForm} style={{ marginLeft: "15px" }}>Cancel</button>}

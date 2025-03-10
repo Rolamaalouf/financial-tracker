@@ -75,7 +75,7 @@ const DashboardPage = () => {
   return (
     <div className="dashboard">
             <center>
-        <h1 style={{ color: "#800080", display: "flex", alignItems: "center", justifyContent: "center", gap: "10px" }}>
+        <h1 style={{ color: "#800080", display: "flex", alignItems: "center", justifyContent: "center", gap: "30px" }}>
           FinSync
           <img src="https://i.ibb.co/Q7qvnMBc/finsync-4x-1.png" alt="FinSync Logo" style={{ height: "40px" }} />
         </h1>

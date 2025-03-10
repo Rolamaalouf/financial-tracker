@@ -25,7 +25,7 @@ const Login = () => {
 
   return (
     <div style={{ 
-      backgroundColor: 'pink', 
+      backgroundColor: '#f9b3f3', 
       height: '100vh', 
       width: '100vw', 
       marginLeft: '-500px',  // Changed to -500px

@@ -242,7 +242,7 @@ const ProfitGoal = () => {
               </div>
               <button type="submit"                 style={{
                   ...styles.createButton,
-                  backgroundColor: 'pink',
+                  backgroundColor: '#f9b3f3',
                   color: 'black',
                   marginTop: '20px', // Add margin top here
                 }}>
@@ -277,7 +277,7 @@ const styles = {
   },
   deleteButton: {
     marginLeft: '10px',
-    backgroundColor: 'pink',
+    backgroundColor: '#f9b3f3',
     color: 'white',
     border: 'none',
     padding: '5px 10px',
@@ -286,7 +286,7 @@ const styles = {
   },
   editButton: {
     marginLeft: '10px',
-    backgroundColor: 'pink',
+    backgroundColor: '#f9b3f3',
     color: 'white',
     border: 'none',
     padding: '5px 10px',
